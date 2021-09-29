@@ -12,7 +12,3 @@ sh run.sh
 
 ### 镜像介绍：
 镜像名称：pytorch/pytorch: 1.9.0-cuda10.2-cudnn7-runtime
-|软件名称|版本|
-|:-:|:-:|
-|sentence_transformers||
-|pandas||

@@ -5,8 +5,10 @@
 |GPU|2080Ti|
 |nvidia driver|460.84|
 |cuda|11.2|
-|pytorch|1.9.1|
-|conda|4.10.3|
+|pytorch|1.9.0|
+|conda|4.10.1|
+|pandas|1.3.3|
+|sentence_transformers|2.0.0|
 
 ### 2. 解决方案及算法介绍
 按照类型切分数据集，使用脚本为`data/code/dataset_script.py`。
@@ -15,7 +17,7 @@
 
 将拼接后的train集按照7:3分出dev集，使用脚本为`data/code/divide.py`。
 
-将各类数据集合并，形成`train.txt``dev.txt``test.txt`，使用脚本为`get_whole.py`。
+将各类数据集合并，形成`train.txt` `dev.txt` `test.txt`，使用脚本为`get_whole.py`。
 
 以上是对数据集的处理。
 
